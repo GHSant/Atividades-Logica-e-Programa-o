@@ -1,0 +1,32 @@
+<html>
+
+    <head>
+    
+        <meta charset="utf-8">
+
+        <script>
+
+     
+
+        var Numero = parseInt(prompt("Digite a quantidade de produtos"));
+        var Quantidade = Numero * 8.190;
+        var parcelas = parseInt(prompt("Digite a quantidade de parcelas que deseja pagar"));
+        while (parcelas > 15 || parcelas < 1){
+            alert('Digite um valor entre 1 e 15!');
+            parcelas = parseInt(prompt("Digite a quantidade de parcelas que deseja pagar"));
+        }
+
+        precoFinal = quantidade / parcelas;
+
+        document.write("Esse será o valor de cada parcela: " + precoFinal);
+   
+       </script>
+    
+    </head>
+    
+    <body>
+
+
+    </body>
+    
+    </html>
